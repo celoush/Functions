@@ -6,10 +6,9 @@ This function sort array with Quicksort algorithm.
 
 Example:
 array = [3,2,1,4]
-sorted = [array] call BIS_fnc_arrSort
+array call BIS_fnc_arrSort
 
-array is now [2,3,4]
-element is now 1
+array is now [1,2,3,4]
 ************************************************************/
 
 private["_qsort_swap","_qsort_partition","_qsort","_quicksort"];
