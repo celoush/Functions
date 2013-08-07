@@ -2,9 +2,9 @@ class CfgFunctions
 {
   	class celo
 	{
+		file = "celo\functions";
 		class array
-		{
-			file = "celo\functions\array";
+		{			
 			class arraySort { };
 		};
 	};
