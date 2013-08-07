@@ -1,13 +1,11 @@
 class CfgFunctions
 {
-  class celo
+  	class celo
 	{
 		class array
 		{
-			class arraySort
-			{
-				file = "celo\functions\array\fn_arraySort.sqf";
-			};
+			file = "celo\functions\array";
+			class arraySort { };
 		};
 	};
 };
